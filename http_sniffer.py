@@ -6,9 +6,7 @@ from scapy.layers import http
 
 
 def sniffer(interface): 
-    print("-------------mo-------------------")
-    print("-------Sniffer Has Started---------")
-    print("-----------------salah---------------")
+    print("Sniffer Has Started")
     
     scapy.sniff(iface=interface, store=False, prn=process)
     
