@@ -7,3 +7,11 @@ Here is 2 files
 
 
 2)  <<packets_sniffer.py>> : that captures and analyzes network traffic tcp,raw
+
+
+
+to run this code you will need to download scapy package => write "pip install scapy" in your cmd
+
+and download wincap or npcap 
+
+and know your interface name write :"ipconfig" in your cmd
